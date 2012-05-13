@@ -1,0 +1,29 @@
+{
+  "name": "junction-attention",
+  "version": "0.0.0",
+  "description": "Attention middleware for Junction.",
+  "keywords": ["junction", "xmpp", "jabber", "attention", "xep0224", "middleware"],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaredhanson/junction-attention.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jaredhanson/junction-attention/issues"
+  },
+  "author": { "name": "Jared Hanson", "email": "jaredhanson@gmail.com", "url": "http://www.jaredhanson.net/" },
+  "licenses": [ {
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/MIT" 
+  } ],
+  "main": "./lib",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "junction": "0.2.x"
+    "vows": "0.6.x"
+  },
+  "scripts": {
+    "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
+  },
+  "engines": { "node": ">= 0.4.0" }
+}
