@@ -19,7 +19,7 @@
   "dependencies": {
   },
   "devDependencies": {
-    "junction": "0.2.x"
+    "junction": "0.2.x",
     "vows": "0.6.x"
   },
   "scripts": {
