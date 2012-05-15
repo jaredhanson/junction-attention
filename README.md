@@ -3,6 +3,27 @@
 [Attention](http://xmpp.org/extensions/xep-0224.html) middleware built on [Junction](http://github.com/jaredhanson/junction)
 and [Node](http://nodejs.org).
 
+## Installation
+
+    $ npm install junction-attention
+
+## Usage
+
+To parse attention indicators in message stanzas, use `attentionParser`
+middleware:
+
+    var attentionParser = require('junction-attention');
+
+    var app = junction()
+      .use(attentionParser());
+
+## Tests
+
+    $ npm install --dev
+    $ make test
+
+[![Build Status](https://secure.travis-ci.org/jaredhanson/junction-attention.png)](http://travis-ci.org/jaredhanson/junction-attention)
+
 ## License
 
 (The MIT License)
