@@ -1,6 +1,6 @@
 {
   "name": "junction-attention",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Attention middleware for Junction.",
   "keywords": ["junction", "xmpp", "jabber", "attention", "xep0224", "middleware"],
   "repository": {
